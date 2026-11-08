@@ -14,7 +14,7 @@ A dated copy of the previous Ronan Miles Technology page, including its styleshe
 
 The layout started from a public reference read on November 7, 2026 (PT): https://rmarr127.wixsite.com/teksaas
 
-The active name is Ronan Miles Tech. The reference wordmark is not on the page. Unverified client quotes are not on the page. The reference street address, example phone number, and example email are not on the page, and no replacement address, phone, or email is published. The enquiry control only writes a draft in the browser.
+The active name is Ronan Miles Tech. The reference wordmark is not on the page. Unverified client quotes are not on the page. The reference street address, example phone number, and example email are not on the page. The published enquiry address is `ronanmiles.tech@gmail.com`. The contact link and the enquiry button open a draft in the visitor’s email app. The visitor sends it. The page has no mail backend.
 
 Service names and prices remain reference information. The page still says availability and current pricing need confirmation, and that no bookings are taken. The design-preview banner and `noindex, nofollow` stay until those details are approved.
 
@@ -23,7 +23,7 @@ Service names and prices remain reference information. The page still says avail
 - The menu button is mobile-only (viewport 760px and below). It toggles the navigation, Escape closes it, and choosing a link closes it. Desktop shows the links directly, with no menu button.
 - With JavaScript off, the links stay visible and the draft button stays disabled.
 - Service enquiry links select the matching service in the form.
-- “Prepare enquiry draft” writes plain text below the form. It sends nothing, saves nothing, and does not claim a message was sent. There is no mailto link and no form endpoint.
+- “Open email draft” builds a `mailto` link to `ronanmiles.tech@gmail.com` with the chosen service as the subject and the message as the body. It also shows the address and message so they can be copied if no email app opens. Nothing is sent until the visitor presses Send in that app.
 
 ## Assets
 
@@ -35,4 +35,4 @@ Confirm the right to reuse the reference photographs before treating this as a f
 
 ## Before calling this live
 
-Confirm prices, availability, service claims, and image rights. Add a contact destination only after it is confirmed. Remove the draft labels and the `noindex` rule only after that approval.
+Confirm prices, availability, service claims, and image rights. Remove the draft labels and the `noindex` rule only after that approval.
