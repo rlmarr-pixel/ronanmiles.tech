@@ -33,5 +33,5 @@ prepare.addEventListener('click', () => {
   const message = document.querySelector('#message').value.trim();
   const output = document.querySelector('#draft-output');
   if (!message) { output.textContent = 'Please describe what you need. Nothing has been sent.'; return; }
-  output.textContent = `ENQUIRY DRAFT — NOT SENT\n\nSubject: ${service}\n\n${message}\n\nCopy this draft into your preferred email app once the business contact details have been verified. No booking has been made.`;
+  output.textContent = `ENQUIRY DRAFT — NOT SENT\n\nSubject: ${service}\n\n${message}\n\nThis draft stays in the browser. No contact destination is configured, and no booking has been made.`;
 });
